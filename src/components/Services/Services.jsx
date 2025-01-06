@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
@@ -10,25 +9,28 @@ const skillsData = [
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "All our products are offered at competitive prices, ensuring great value without compromising on quality.",
     aosDelay: "0",
   },
   {
-    name: "Fast and Safe",
+    name: "Authentic Products",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "We stock only genuine, high-quality products from trusted brands like MT, Rynox, BBG, and Orazo.",
     aosDelay: "500",
   },
   {
-    name: "Experience Drivers",
+    name: "Comprehensive Range",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "From helmets and gloves to jackets and cleaning tools, we have it all. Our MT helmets, in particular, are a highlight and a must-see for every biker.",
     aosDelay: "1000",
   },
 ];

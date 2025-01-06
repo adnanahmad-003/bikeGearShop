@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
@@ -11,19 +11,15 @@ export const Navlinks = [
   },
   {
     id: 2,
-    name: "CARS",
-    link: "/#cars",
+    name: "GALLERY",
+    // link: "/#cars",
   },
   {
     id: 1,
     name: "ABOUT",
-    link: "/#about",
+    // link: "/#about",
   },
-  {
-    id: 1,
-    name: "BOOKING",
-    link: "/#booking",
-  },
+ 
 ];
 const Navbar = ({ theme, setTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -39,7 +35,7 @@ const Navbar = ({ theme, setTheme }) => {
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold font-serif">Car Rental</span>
+            <span className="text-3xl font-bold font-serif">Riders Gallery</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
